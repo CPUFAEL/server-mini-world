@@ -23,6 +23,12 @@ header{
     align-items: center;
     background-color: var(--cor-header);
 }
+header a:hover{
+    background-color: var(--cor-border);
+    border: 2px solid white;
+    transition: 1s;
+    opacity: 1;
+}
 .container{
     position: relative;
     background-color: var(--cor-background);
